@@ -8,7 +8,7 @@ app.use(express.json());
 
 
 app.use(cors({
-  origin:"http://localhost:5173",
+  origin:"https://plant-farm-web-pnlf.vercel.app",
   credentials:true
 })) //cors error while fectching api's from the frontEnd
 
