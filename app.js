@@ -8,7 +8,7 @@ app.use(express.json());
 
 
 app.use(cors({
-  origin:"*",
+  origin:"https://plantfarm-server.onrender.com",
   credentials:true
 })) //cors error while fectching api's from the frontEnd
 
